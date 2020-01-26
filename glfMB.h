@@ -31,10 +31,4 @@ GLchar* glfShaderCode =
 	// A bit of a Hack, but I really like the colors
 	"gl_FragColor = vec4(0.5 + cos(3.0 + float(i)/4 + vec3(0.0, 0.5, 1.0))/2, 1.0);"
 
-	//"gl_FragColor = vec4(0.5, 0.5, 0.5 + 0.5*cos(3.0 + float(i)*.15), 1.0);"
-
-	//"gl_FragColor = vec4(vec3(0.5 + 0.5*cos(3.0 + float(i)*.15),.0,.0), 1.0);"
-	//"gl_FragColor = vec4((i == iter ? 0.0 : float(i)/float(iter)), 0.0, 0.0, 1);"
-	//"gl_FragColor = vec4(sin(iter/i), 0.0, 0.0, 1);"
-
 "}";
