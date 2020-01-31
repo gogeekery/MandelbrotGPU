@@ -1,0 +1,2 @@
+glfMB.h contains the GLSL for the fragment shader, which computes the Mandelbrot set and sets each pixel on the screen.
+Main.c includes the setup to run the fragment shader and gets user input. Includes glfMB.h later on in the file.
