@@ -1,4 +1,5 @@
 GLchar* glfShaderCode =
+"#version 130\n"
 "uniform vec2 cntr;"
 "uniform float scal;"
 
